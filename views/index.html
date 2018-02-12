@@ -6,11 +6,12 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<input type="text" class="nickname" placeholder="What is your nickname?">
 	<ul id="messages"></ul>
+	<input type="text" class="nickname" placeholder="What is your nickname?">
 	<form>
 		<input class="message" type="text" id="m" autocomplete="off">
-		<button>send</button>
+		<input class="colour" type="button" value="Colour">
+		<button class="send">Send</button>
 	</form>
   <script src="socket.io/socket.io.js"></script>
   <script src="js/main.js"></script>
