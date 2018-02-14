@@ -17,7 +17,6 @@
 
   function handleSendMessage(e) {
     e.preventDefault();
-    //ternary --> check to see if the variable exists, and handle if it does, or if it doesn't
     nickName = (nickName && nickName.length > 0) ? nickName : 'user';  
     msg = `${nickName} says ${chatMessage.value}`;
     socket.emit('chat message', msg);

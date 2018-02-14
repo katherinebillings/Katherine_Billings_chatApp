@@ -35,7 +35,21 @@ form {
 		background: -moz-linear-gradient(left, rgba(130,224,255,1) 0%, rgba(0,195,255,1) 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(left, rgba(130,224,255,1) 0%,rgba(0,195,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to right, rgba(130,224,255,1) 0%,rgba(0,195,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82e0ff', endColorstr='#00c3ff',GradientType=1 ); /* IE6-9 */ border: none; padding: 10px; font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82e0ff', endColorstr='#00c3ff',GradientType=1 ); /* IE6-9 */
+		border: none;
+		padding:
+		10px;
+		font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+		cursor: pointer;
+		-webkit-transition: all 1s;
+    	transition: all 1s;
+	}
+}
+
+button:hover
+{
+	-webkit-filter: brightness(85%);
+	filter: brightness(85%);
 }
 
 .colour
@@ -46,6 +60,14 @@ form {
 	border: none;
 	padding: 10px;
 	cursor: pointer;
+	-webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.colour:hover
+{
+	-webkit-filter: brightness(80%);
+	filter: brightness(80%);
 }
 
 #messages {
