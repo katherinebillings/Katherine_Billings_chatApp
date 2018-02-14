@@ -41,8 +41,8 @@ form {
 		10px;
 		font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 		cursor: pointer;
-		-webkit-transition: all 1s;
-    	transition: all 1s;
+		-webkit-transition: all 0.5s;
+    	transition: all 0.5s;
 	}
 }
 
@@ -60,8 +60,8 @@ button:hover
 	border: none;
 	padding: 10px;
 	cursor: pointer;
-	-webkit-transition: all 1s;
-    transition: all 1s;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .colour:hover
