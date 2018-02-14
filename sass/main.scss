@@ -1,0 +1,78 @@
+/* reset */
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body { font: 13px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+
+.nickname
+{
+	color: black;
+	padding: 3px;
+	position: fixed;
+	bottom: 43px;
+	margin: 5px 0 0 0;
+	border: 6px black solid;
+	border-top-right-radius: 3px;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+form {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0,727272+75,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(114,114,114,1) 75%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(114,114,114,1) 75%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(114,114,114,1) 75%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	padding: 6px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+	input { border: 0; border-radius: 3px; padding: 10px; width: 85%; margin-right: 0.5%; font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+	button { width: 9%; border-radius: 3px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#82e0ff+0,00c3ff+100 */
+		background: rgb(130,224,255); /* Old browsers */
+		background: -moz-linear-gradient(left, rgba(130,224,255,1) 0%, rgba(0,195,255,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(130,224,255,1) 0%,rgba(0,195,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(130,224,255,1) 0%,rgba(0,195,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82e0ff', endColorstr='#00c3ff',GradientType=1 ); /* IE6-9 */
+		border: none;
+		padding:
+		10px;
+		font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+		cursor: pointer;
+		-webkit-transition: all 0.5s;
+    	transition: all 0.5s;
+	}
+}
+
+button:hover
+{
+	-webkit-filter: brightness(85%);
+	filter: brightness(85%);
+}
+
+.colour
+{
+	width: 4%;
+	background-color: white;
+	color: black;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.colour:hover
+{
+	-webkit-filter: brightness(80%);
+	filter: brightness(80%);
+}
+
+#messages {
+	list-style-type: none; margin: 0; padding: 0;
+
+	li { padding: 5px 10px;	}
+	li:nth-child(odd) { background: #eee; }
+}
