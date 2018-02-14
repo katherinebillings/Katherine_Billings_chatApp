@@ -44,7 +44,6 @@
     }
   }
 
-
   nameInput.addEventListener('change', setNickname, false);
   chatForm.addEventListener('submit', handleSendMessage, false);
   socket.addEventListener('chat message', appendMessage, false);
